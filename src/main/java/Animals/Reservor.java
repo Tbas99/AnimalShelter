@@ -1,14 +1,14 @@
 package Animals;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Reservor
 {
     public String Name;
 
-    public Date ReservedAt;
+    public LocalDate ReservedAt;
 
-    public Reservor(String name, Date reservedAt)
+    public Reservor(String name, LocalDate reservedAt)
     {
         this.Name = name;
         this.ReservedAt = reservedAt;

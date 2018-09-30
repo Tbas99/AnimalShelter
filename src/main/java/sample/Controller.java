@@ -2,7 +2,8 @@ package sample;
 
 import Animals.Animal;
 import Animals.Gender;
-import javafx.beans.property.BooleanProperty;
+import ObserverPattern.Customer;
+import ObserverPattern.MailingSystem;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -19,6 +20,7 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
     private Reservation reservations = new Reservation();
+    MailingSystem mailingSystem = new MailingSystem();
 
     @FXML
     private ComboBox<String> SpeciesCB;
@@ -48,6 +50,15 @@ public class Controller implements Initializable {
     private Button ReserveAnimalButton;
 
     @FXML
+    private TextField EmailTB;
+
+    @FXML
+    private Button SubscribeButton;
+
+    @FXML
+    private ComboBox<String> nameCB;
+
+    @FXML
     public void initialize(URL location, ResourceBundle resources) {
         // Populate the listbox
         ObservableList<String> options = FXCollections.observableArrayList(
@@ -69,6 +80,19 @@ public class Controller implements Initializable {
 
         // Set the event for reserving an animal
         ReserveAnimalButton.setOnAction(this::reserveAnimal);
+
+        // Set the event for subscribing
+        SubscribeButton.setOnAction(this::subscribe);
+    }
+
+    private void subscribe(ActionEvent actionEvent)
+    {
+        Customer customer = new Customer(EmailTB.getText(), nameCB.getSelectionModel().getSelectedItem());
+        mailingSystem.registerObserver(customer);
+
+        // Clean up the scene
+        EmailTB.clear();
+        RefreshControls();
     }
 
     private void addAnimal(ActionEvent actionEvent)
@@ -101,6 +125,10 @@ public class Controller implements Initializable {
         if (animal != null)
         {
             animal.Reserve(ReserveAnimalTB.getText());
+
+            // Notify all observers on that selected animal
+            mailingSystem.setAnimalReserved(true);
+
             RefreshControls();
         }
     }
@@ -140,9 +168,11 @@ public class Controller implements Initializable {
     private void RefreshControls()
     {
         AnimalsLV.getItems().clear();
+        nameCB.getItems().clear();
         for (Animal animal : reservations.Animals)
         {
             AnimalsLV.getItems().add(animal);
+            nameCB.getItems().add(animal.Name);
         }
     }
 }

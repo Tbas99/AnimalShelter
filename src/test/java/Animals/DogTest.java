@@ -4,7 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
@@ -21,14 +23,12 @@ public class DogTest
     @Test
     public void TestConstructor()
     {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate localDate = LocalDate.now();
-        Date today = new Date (dtf.format(localDate));
+        LocalDate now = LocalDate.now();
 
         Assert.assertEquals("Sgt. Woof", dog.Name);
         Assert.assertEquals(Gender.Male, dog.Gender);
         Assert.assertNull(dog.ReservedBy);
-        Assert.assertEquals(today, dog.LastWalk);
+        Assert.assertEquals(now, dog.LastWalk);
         Assert.assertFalse(dog.NeedsWalk());
     }
 

@@ -13,9 +13,7 @@ public class ReservorTest
     @Test
     public void TestConstructor()
     {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate localDate = LocalDate.now();
-        Date today = new Date (dtf.format(localDate));
+        LocalDate today = LocalDate.now();
 
         Reservor reservor = new Reservor("John Doe", today);
         Assert.assertEquals("John Doe", reservor.Name);

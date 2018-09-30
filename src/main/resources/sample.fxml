@@ -45,12 +45,17 @@
             <ListView fx:id="AnimalsLV" layoutX="12.0" layoutY="31.0" prefHeight="133.0" prefWidth="449.0" />
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <AnchorPane prefHeight="202.0" prefWidth="475.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <children>
             <Label layoutX="14.0" layoutY="14.0" text="Reserve animal" textFill="WHITE" />
             <Label layoutX="14.0" layoutY="45.0" text="Name:" textFill="WHITE" />
-            <TextField fx:id="ReserveAnimalTB" layoutX="54.0" layoutY="41.0" prefHeight="28.0" prefWidth="154.0" />
+            <TextField fx:id="ReserveAnimalTB" layoutX="54.0" layoutY="41.0" prefHeight="28.0" prefWidth="154.0" promptText="Your name" />
             <Button fx:id="ReserveAnimalButton" layoutX="225.0" layoutY="36.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="231.0" text="Reserve selected animal" />
+            <Label layoutX="14.0" layoutY="93.0" text="Do you want to be notified when a specific animal gets reserved?" textFill="WHITE" />
+            <Label layoutX="14.0" layoutY="110.0" text="Enter your email, select the name and we will notify you if an animal gets reserved!" textFill="WHITE" />
+            <TextField fx:id="EmailTB" layoutX="14.0" layoutY="131.0" prefHeight="28.0" prefWidth="194.0" promptText="Email adress" />
+            <Button fx:id="SubscribeButton" layoutX="331.0" layoutY="129.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="124.0" text="Subscribe!" />
+            <ComboBox fx:id="nameCB" layoutX="225.0" layoutY="130.0" prefHeight="31.0" prefWidth="95.0" />
          </children>
       </AnchorPane>
    </children>

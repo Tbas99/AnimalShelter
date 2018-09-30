@@ -2,23 +2,20 @@ package Animals;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
+
+import static java.time.temporal.ChronoUnit.DAYS;
 
 public class Dog extends Animal
 {
-    public Date LastWalk;
+    public LocalDate LastWalk;
 
     public boolean NeedsWalk()
     {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate localDate = LocalDate.now();
-        Date today = new Date (dtf.format(localDate));
+        LocalDate today = LocalDate.now();
 
-        long diffInMillies = Math.abs(today.getTime() - LastWalk.getTime());
-        long diff = TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS);
+        long daysBetween = DAYS.between(today, LastWalk);
 
-        if (diff > 0)
+        if (daysBetween == 0)
         {
             return false;
         }
@@ -31,15 +28,13 @@ public class Dog extends Animal
     public Dog(String name, Gender gender)
     {
         super(name, gender);
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate localDate = LocalDate.now();
-        Date today = new Date (dtf.format(localDate));
+        LocalDate today = LocalDate.now();
         this.LastWalk = today;
     }
 
     @Override
     public String toString()
     {
-        return super.toString() + "LastWalk=" + LastWalk;
+        return "Dog " + super.toString() + "LastWalk = " + LastWalk.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 }

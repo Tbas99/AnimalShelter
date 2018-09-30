@@ -13,6 +13,6 @@ public class Cat extends Animal
     @Override
     public String toString()
     {
-        return super.toString() + "BadHabits='" + BadHabits;
+        return "Cat, " + super.toString() + "BadHabits = '" + BadHabits + "'";
     }
 }
