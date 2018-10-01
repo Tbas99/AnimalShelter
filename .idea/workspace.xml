@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Added final test + workspace xml">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/MailingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Subject.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="small workspace change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalShelter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animals/Reservor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals/Reservor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Animals/DogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Animals/DogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Animals/ReservorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Reservor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Animals/Species.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Reservation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Animals/DogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Animals/DogTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Animals/ReservorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Animals/ReservorTest.class" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +59,7 @@
     <session id="-444327311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.117" value="1" />
           <entry key="project.open.time.27" value="1" />
@@ -118,14 +89,14 @@
         <counts>
           <entry key="fxml" value="15" />
           <entry key="java" value="10715" />
-          <entry key="txt" value="49" />
+          <entry key="txt" value="127" />
           <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="10715" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="PLAIN_TEXT" value="127" />
           <entry key="XML" value="69" />
         </counts>
       </usages-collector>
@@ -427,7 +398,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Tob/IdeaProjects/AnimalShelter/src/test/java/Animals/AnimalTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538329316350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538329476711" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -648,7 +619,7 @@
       <workItem from="1537779883950" duration="5548000" />
       <workItem from="1537860596658" duration="707000" />
       <workItem from="1538232160624" duration="11789000" />
-      <workItem from="1538326686366" duration="2521000" />
+      <workItem from="1538326686366" duration="2907000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1537784875066</created>
@@ -664,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537787769237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Integrated observer pattern with SMTP functionality">
+      <created>1538329440371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538329440371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -700,13 +678,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50408000" />
+    <option name="totallyTimeSpent" value="50794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24810892" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -752,7 +729,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added final test + workspace xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added final test + workspace xml" />
+    <MESSAGE value="Integrated observer pattern with SMTP functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrated observer pattern with SMTP functionality" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -773,6 +751,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -787,6 +768,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,6 +780,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -801,6 +790,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,6 +807,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -822,6 +817,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,6 +831,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
